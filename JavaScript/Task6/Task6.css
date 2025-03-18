@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+/* Logo */
+.logo {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-field {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Login Button */
+.login-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background: #0056b3;
+}
+
+/* Remember & Forgot Password */
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Signup Link */
+.signup {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Error Messages */
+.error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+}
